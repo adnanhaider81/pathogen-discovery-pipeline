@@ -127,13 +127,13 @@ See `docs/interpretation.md` for detailed guidance and recommended follow ups.
 
 If you use this pipeline in a report or publication, please cite:
 
-Syed Adnan Haider, National Institute of Health, Islamabad.
+Haider, S. A. (2025). Pathogen Discovery Pipeline (Version 0.1.0) [Software]. National Institute of Health, Islamabad. https://github.com/adnanhaider81/pathogen-discovery-pipeline
 
 A machine readable citation file is provided as `CITATION.cff`.
 
 ## License
 
-MIT license template is included. Replace the placeholder name in `LICENSE` if you publish the repository.
+MIT license template is included.
 
 ## Acknowledgements
 
