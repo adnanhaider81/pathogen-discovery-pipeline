@@ -133,7 +133,7 @@ A machine readable citation file is provided as `CITATION.cff`.
 
 ## License
 
-MIT license template is included.
+MIT license is included.
 
 ## Acknowledgements
 
