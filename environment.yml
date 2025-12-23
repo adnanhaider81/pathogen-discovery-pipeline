@@ -1,0 +1,17 @@
+name: pathogen_discovery_pipeline
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - minimap2
+  - samtools
+  - pigz
+  - unzip
+  - wget
+  - curl
+  - gawk
+  - sed
+  - python
+  - conda-forge::ncbi-datasets-cli
+  - blast
+  - bbmap

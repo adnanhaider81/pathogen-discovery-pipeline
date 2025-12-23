@@ -1,0 +1,16 @@
+# Pathogen panel taxa (bacteria, fungi, parasites etc), one taxon per line
+# Use scientific names as recognized by NCBI.
+
+# Example bacteria
+Mannheimia haemolytica
+Pasteurella multocida
+Streptococcus equi
+Moraxella catarrhalis
+
+# Example fungi
+Aspergillus fumigatus
+Candida albicans
+
+# Example parasites
+Trypanosoma evansi
+Leishmania infantum

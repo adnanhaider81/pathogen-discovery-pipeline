@@ -1,0 +1,3 @@
+# Host genomes to subtract (one taxon per line)
+Homo sapiens
+# Camelus dromedarius

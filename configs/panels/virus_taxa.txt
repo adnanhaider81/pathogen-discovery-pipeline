@@ -1,0 +1,6 @@
+# Virus panel taxa (optional). One taxon per line.
+# If empty, virus download is skipped.
+# Examples:
+# Influenza A virus
+# Middle East respiratory syndrome-related coronavirus
+# Camelpox virus
