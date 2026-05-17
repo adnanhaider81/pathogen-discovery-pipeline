@@ -34,7 +34,7 @@ flowchart LR
 | Data privacy note | Public panels/config only; local reads stay outside git |
 | Container recipe | `Dockerfile` |
 | GitHub Actions badge | Present |
-| Zenodo DOI | [10.5281/zenodo.20257430](https://doi.org/10.5281/zenodo.20257430) |
+| Zenodo DOI | Pending Zenodo archive for `v0.1.1` |
 
 ## What this pipeline is for
 
@@ -159,7 +159,7 @@ See `docs/interpretation.md` for detailed guidance and recommended follow ups.
 
 If you use this pipeline in a report or publication, please cite:
 
-Haider, S. A. (2026). Pathogen Discovery Pipeline (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.20257430
+Haider, S. A. (2026). Pathogen Discovery Pipeline (v0.1.1). Zenodo release DOI pending.
 
 The all-version Zenodo concept DOI is https://doi.org/10.5281/zenodo.20257429.
 
