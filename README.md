@@ -1,5 +1,7 @@
 # Pathogen Discovery Pipeline
 
+[![DOI](https://zenodo.org/badge/1121889266.svg)](https://zenodo.org/badge/latestdoi/1121889266)
+
 A panel driven metagenomic confirmatory mapping workflow with host subtraction and competitive mapping.
 Use it for bacteria, DNA viruses, fungi, and parasites by editing the taxon lists in `configs/`.
 For RNA viruses, you need an RNA compatible library prep (or a separate RNA workflow) and an appropriate reference panel.
@@ -31,7 +33,7 @@ flowchart LR
 | Data privacy note | Public panels/config only; local reads stay outside git |
 | Container recipe | Planned |
 | GitHub Actions badge | Planned |
-| Zenodo DOI | Pending Zenodo archive for `v0.1.0` |
+| Zenodo DOI | [10.5281/zenodo.20257430](https://doi.org/10.5281/zenodo.20257430) |
 
 ## What this pipeline is for
 
@@ -156,7 +158,9 @@ See `docs/interpretation.md` for detailed guidance and recommended follow ups.
 
 If you use this pipeline in a report or publication, please cite:
 
-Haider, S. A. (2026). Pathogen Discovery Pipeline (Version 0.1.0) [Software]. National Institute of Health, Islamabad. https://github.com/adnanhaider81/pathogen-discovery-pipeline
+Haider, S. A. (2026). Pathogen Discovery Pipeline (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.20257430
+
+The all-version Zenodo concept DOI is https://doi.org/10.5281/zenodo.20257429.
 
 A machine readable citation file is provided as `CITATION.cff`.
 

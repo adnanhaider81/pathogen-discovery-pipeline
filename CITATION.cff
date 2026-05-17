@@ -10,6 +10,7 @@ authors:
     given-names: "Syed Adnan"
     affiliation: "National Institute of Health, Islamabad"
 repository-code: "https://github.com/adnanhaider81/pathogen-discovery-pipeline"
+doi: "10.5281/zenodo.20257430"
 license: "MIT"
 keywords:
   - metagenomics
