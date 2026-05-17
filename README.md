@@ -31,7 +31,7 @@ flowchart LR
 | Data privacy note | Public panels/config only; local reads stay outside git |
 | Container recipe | Planned |
 | GitHub Actions badge | Planned |
-| Zenodo DOI | Planned for archived stable release |
+| Zenodo DOI | Pending Zenodo archive for `v0.1.0` |
 
 ## What this pipeline is for
 
@@ -156,7 +156,7 @@ See `docs/interpretation.md` for detailed guidance and recommended follow ups.
 
 If you use this pipeline in a report or publication, please cite:
 
-Haider, S. A. (2025). Pathogen Discovery Pipeline (Version 0.1.0) [Software]. National Institute of Health, Islamabad. https://github.com/adnanhaider81/pathogen-discovery-pipeline
+Haider, S. A. (2026). Pathogen Discovery Pipeline (Version 0.1.0) [Software]. National Institute of Health, Islamabad. https://github.com/adnanhaider81/pathogen-discovery-pipeline
 
 A machine readable citation file is provided as `CITATION.cff`.
 
