@@ -4,6 +4,35 @@ A panel driven metagenomic confirmatory mapping workflow with host subtraction a
 Use it for bacteria, DNA viruses, fungi, and parasites by editing the taxon lists in `configs/`.
 For RNA viruses, you need an RNA compatible library prep (or a separate RNA workflow) and an appropriate reference panel.
 
+## Portfolio quick view
+
+This repository demonstrates a conservative confirmatory-mapping workflow for metagenomic signals: host subtraction, curated candidate panels, competitive mapping, breadth/depth summaries, and interpretation guidance. The emphasis is not only finding a taxon name, but deciding whether the read evidence supports follow-up.
+
+```mermaid
+flowchart LR
+  A["Raw FASTQ"] --> B["Host subtraction"]
+  B --> C["Optional complexity filtering"]
+  C --> D["Candidate reference panel"]
+  D --> E["Competitive mapping"]
+  E --> F["Breadth and depth metrics"]
+  F --> G["Signal classification"]
+  G --> H["Confirmatory follow-up"]
+```
+
+## Public repository checklist
+
+| Item | Status |
+| --- | --- |
+| README, license, citation metadata | Present |
+| Reproducible environment | `environment.yml` |
+| Tests or smoke checks | Shell syntax checks; deeper synthetic fixture planned |
+| Example or synthetic data | Planned |
+| Documentation | `docs/` interpretation, panel design, and troubleshooting notes |
+| Data privacy note | Public panels/config only; local reads stay outside git |
+| Container recipe | Planned |
+| GitHub Actions badge | Planned |
+| Zenodo DOI | Planned for archived stable release |
+
 ## What this pipeline is for
 
 This workflow is designed for the step after an initial screen (for example Kraken2 Bracken, Kaiju, or Centrifuge).
