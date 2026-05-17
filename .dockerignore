@@ -1,0 +1,14 @@
+.git/
+.github/
+.venv/
+__pycache__/
+*.pyc
+data-private/
+fastq/
+results/
+work/
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.zip

@@ -1,6 +1,7 @@
 # Pathogen Discovery Pipeline
 
 [![DOI](https://zenodo.org/badge/1121889266.svg)](https://zenodo.org/badge/latestdoi/1121889266)
+[![Smoke test](https://github.com/adnanhaider81/pathogen-discovery-pipeline/actions/workflows/smoke-test.yml/badge.svg)](https://github.com/adnanhaider81/pathogen-discovery-pipeline/actions/workflows/smoke-test.yml)
 
 A panel driven metagenomic confirmatory mapping workflow with host subtraction and competitive mapping.
 Use it for bacteria, DNA viruses, fungi, and parasites by editing the taxon lists in `configs/`.
@@ -31,8 +32,8 @@ flowchart LR
 | Example or synthetic data | Planned |
 | Documentation | `docs/` interpretation, panel design, and troubleshooting notes |
 | Data privacy note | Public panels/config only; local reads stay outside git |
-| Container recipe | Planned |
-| GitHub Actions badge | Planned |
+| Container recipe | `Dockerfile` |
+| GitHub Actions badge | Present |
 | Zenodo DOI | [10.5281/zenodo.20257430](https://doi.org/10.5281/zenodo.20257430) |
 
 ## What this pipeline is for

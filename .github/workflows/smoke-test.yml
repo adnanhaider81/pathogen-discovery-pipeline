@@ -1,0 +1,15 @@
+name: Smoke test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check shell entrypoints
+        run: |
+          bash -n bin/pathogen_discovery_pipeline.sh
+          bash -n run.sh
