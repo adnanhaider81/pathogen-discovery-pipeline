@@ -145,7 +145,7 @@ See `docs/interpretation.md` for detailed guidance and recommended follow ups.
 
 If you use this pipeline in a report or publication, please cite:
 
-Haider, S. A. (2026). Pathogen Discovery Pipeline (v0.1.1). Zenodo. https://doi.org/10.5281/zenodo.20257881
+Haider, S. A. (2026). Pathogen Discovery and Confirmatory Mapping Pipeline (v0.1.1). Zenodo. https://doi.org/10.5281/zenodo.20257881
 
 The all-version Zenodo concept DOI is https://doi.org/10.5281/zenodo.20257429.
 
