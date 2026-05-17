@@ -1,4 +1,4 @@
-# Pathogen Discovery Pipeline
+# Pathogen Discovery and Confirmatory Mapping Pipeline
 
 [![DOI](https://zenodo.org/badge/1121889266.svg)](https://zenodo.org/badge/latestdoi/1121889266)
 [![Smoke test](https://github.com/adnanhaider81/pathogen-discovery-pipeline/actions/workflows/smoke-test.yml/badge.svg)](https://github.com/adnanhaider81/pathogen-discovery-pipeline/actions/workflows/smoke-test.yml)
@@ -7,7 +7,7 @@ A panel driven metagenomic confirmatory mapping workflow with host subtraction a
 Use it for bacteria, DNA viruses, fungi, and parasites by editing the taxon lists in `configs/`.
 For RNA viruses, you need an RNA compatible library prep (or a separate RNA workflow) and an appropriate reference panel.
 
-## Portfolio quick view
+## Workflow overview
 
 This repository demonstrates a conservative confirmatory-mapping workflow for metagenomic signals: host subtraction, curated candidate panels, competitive mapping, breadth/depth summaries, and interpretation guidance. The emphasis is not only finding a taxon name, but deciding whether the read evidence supports follow-up.
 
@@ -21,20 +21,6 @@ flowchart LR
   F --> G["Signal classification"]
   G --> H["Confirmatory follow-up"]
 ```
-
-## Public repository checklist
-
-| Item | Status |
-| --- | --- |
-| README, license, citation metadata | Present |
-| Reproducible environment | `environment.yml` |
-| Tests or smoke checks | Shell syntax checks; deeper synthetic fixture planned |
-| Example or synthetic data | Planned |
-| Documentation | `docs/` interpretation, panel design, and troubleshooting notes |
-| Data privacy note | Public panels/config only; local reads stay outside git |
-| Container recipe | `Dockerfile` |
-| GitHub Actions badge | Present |
-| Zenodo DOI | [10.5281/zenodo.20257881](https://doi.org/10.5281/zenodo.20257881) |
 
 ## What this pipeline is for
 
