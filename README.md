@@ -141,6 +141,10 @@ Intermediate outputs:
 
 See `docs/interpretation.md` for detailed guidance and recommended follow ups.
 
+## Data governance
+
+See [DATA_GOVERNANCE.md](DATA_GOVERNANCE.md) for public-data, restricted-data, and sample-identifier handling rules.
+
 ## How to cite
 
 If you use this pipeline in a report or publication, please cite:
